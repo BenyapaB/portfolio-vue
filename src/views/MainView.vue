@@ -148,9 +148,9 @@ import ResumeView from './ResumeView.vue';
                     <v-tab :value="3" id="about-portfolio"
                     title="Portfolio"
                     to="/my-portfolio">PORTFOLIO</v-tab>
-                    <v-tab :value="4" id="about-contact"
+                    <!-- <v-tab :value="4" id="about-contact"
                     title="Contact"
-                    to="/contact-me">CONTACT</v-tab>
+                    to="/contact-me">CONTACT</v-tab> -->
                   </v-tabs>
                 </v-col>
               </v-row>

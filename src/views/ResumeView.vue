@@ -98,7 +98,7 @@
                     <v-col cols="2" id="framework-detail">
                         Framework & Other
                     </v-col>
-                    <v-col cols="9" id="skill-detail">Vue.js, Vuetify, Bootstrap, Material Design Icons and
+                    <v-col cols="9" id="skill-detail">Node.js, Vue.js, Vuetify, Bootstrap, Material Design Icons, Gitlab, Github and
                         jQuery</v-col>
                 </v-row>
 
