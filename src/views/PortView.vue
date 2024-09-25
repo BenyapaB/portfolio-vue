@@ -1,7 +1,16 @@
-<script lang="ts"></script>
+<script setup lang="ts">
+import PortList from '../views/PortList.vue';
+import { usePortlinkStore } from "@/store/portlink";
+
+const portLinkStore = usePortlinkStore();
+
+
+</script>
 
 <template>
-    <v-container id="frame-detail"></v-container>
+    <v-container id="frame-detail">
+        <PortList />
+    </v-container>
 </template>
 
 
