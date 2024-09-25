@@ -3,5 +3,6 @@ export default interface Portlink {
   image: string
   linktitle: string
   description: string
-  url: string
+  websiteurl: string
+  githuburl: string
 }
