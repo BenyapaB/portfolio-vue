@@ -58,26 +58,10 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     {
       id: 6,
       image: 'image6',
-      linktitle: 'Port 6',
+      linktitle: 'BMI Calculator',
       description: 'describe6',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
-    },
-    {
-      id: 7,
-      image: 'image7',
-      linktitle: 'Port 7',
-      description: 'describe7',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
-    },
-    {
-      id: 8,
-      image: 'image8',
-      linktitle: 'Port 8',
-      description: 'describe8',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
+      websiteurl: 'https://cal-bmi-43aa6.web.app/',
+      githuburl: 'https://github.com/BenyapaB/bmi-calculator-website'
     }
   ])
   //   const showPortcard = (linklocation: Portlink) => {
