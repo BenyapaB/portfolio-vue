@@ -29,7 +29,7 @@ const portLinkStore = usePortlinkStore();
 
                     </v-card-text>
                     <v-card-actions class="justify-center">
-                        <v-btn v-bind:href="link.websiteurl" target="_blank">view website</v-btn>
+                        <v-btn :disabled="link.websiteurl === ''" v-bind:href="link.websiteurl" target="_blank">view website</v-btn>
                         <v-btn v-bind:href="link.githuburl" target="_blank">open github</v-btn>
                     </v-card-actions>
                     <!-- <div>{{ link.url }}</div> -->

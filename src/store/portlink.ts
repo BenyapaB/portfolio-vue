@@ -18,31 +18,31 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     {
       id: 1,
       image: 'image1',
-      linktitle: 'Landing page website',
+      linktitle: 'Portfolio Website',
       description: 'This website made by HTML5, CSS and JavaScript blablablabal',
-      websiteurl: 'https://v2.vuejs.org/v2/examples/modal',
-      githuburl: 'https://youtube.com'
+      websiteurl: '',
+      githuburl: 'https://github.com/BenyapaB/portfolio-vue'
     },
     {
       id: 2,
       image: 'image2',
-      linktitle: 'Port 2',
+      linktitle: 'GIS Landing page website',
       description: 'describe2',
-      websiteurl: 'https://dev.to/vincentdorian/vue-33-generic-types-and-when-to-use-them-5egn',
-      githuburl: 'https://youtube.com'
+      websiteurl: 'https://benyapab.github.io/gis-landing-page-website/',
+      githuburl: 'https://github.com/BenyapaB/gis-landing-page-website'
     },
     {
       id: 3,
       image: 'image3',
-      linktitle: 'Port 3',
+      linktitle: 'Games for kids',
       description: 'describe3',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
+      websiteurl: 'https://benyapab.github.io/games-for-kids.github.io/',
+      githuburl: 'https://github.com/BenyapaB/games-for-kids.github.io'
     },
     {
       id: 4,
       image: 'image4',
-      linktitle: 'Port 4',
+      linktitle: 'Web template for user',
       description: 'describe4',
       websiteurl: '',
       githuburl: 'https://youtube.com'
@@ -50,7 +50,7 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     {
       id: 5,
       image: 'image5',
-      linktitle: 'Port 5',
+      linktitle: 'Web template for admin',
       description: 'describe5',
       websiteurl: '',
       githuburl: 'https://youtube.com'
