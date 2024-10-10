@@ -16,7 +16,7 @@ const portLinkStore = usePortlinkStore();
             <v-col cols="3" v-for="link of portLinkStore.links" :key="link.id">
                 <v-card id="portfolio-card" class="mx-auto" max-width="400" flat>
                     <v-img class="align-end text-white" height="300"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                        v-bind:src="link.image" cover>
                         <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                     </v-img>
 

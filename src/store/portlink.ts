@@ -25,7 +25,7 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     },
     {
       id: 2,
-      image: 'image2',
+      image: 'src/assets/imgs/gis-index.png',
       linktitle: 'GIS Landing page website',
       description: 'describe2',
       websiteurl: 'https://benyapab.github.io/gis-landing-page-website/',
@@ -62,6 +62,14 @@ export const usePortlinkStore = defineStore('linklocation', () => {
       description: 'describe4',
       websiteurl: 'https://cal-bmi-43aa6.web.app/',
       githuburl: 'https://github.com/BenyapaB/bmi-calculator-website'
+    },
+    {
+      id: 5,
+      image: 'image5',
+      linktitle: 'Pricing Page',
+      description: 'describe5',
+      websiteurl: 'https://benyapab.github.io/pricing-page.github.io/',
+      githuburl: 'https://github.com/BenyapaB/gis-landing-page-website'
     }
   ])
   //   const showPortcard = (linklocation: Portlink) => {

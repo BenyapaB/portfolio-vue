@@ -103,30 +103,32 @@ import ResumeView from './ResumeView.vue';
                   </v-col>
                 </v-row>
                 <v-row id="connection-icon">
-                  <v-col cols="3" class="mt-0" id="fb-icon">
+                  <!-- <v-col cols="3" class="mt-0" id="fb-icon">
                     <v-img
                       src="src/assets/imgs/fb-icon.png"
                       width="auto"
                       height="auto"
                       class="cursor-pointer"
                     ></v-img>
-                  </v-col>
+                  </v-col> -->
                   <v-col cols="3" class="mt-0" id="github-icon">
                     <v-img
                       src="src/assets/imgs/github-icon.png"
+                      href="https://github.com/BenyapaB"
+                      title="Github link"
                       width="auto"
                       height="auto"
                       class="cursor-pointer"
                     ></v-img>
                   </v-col>
-                  <v-col cols="3" class="mt-0" id="ig-icon">
+                  <!-- <v-col cols="3" class="mt-0" id="ig-icon">
                     <v-img
                       src="src/assets/imgs/ig-icon.png"
                       width="auto"
                       height="auto"
                       class="cursor-pointer"
                     ></v-img>
-                  </v-col>
+                  </v-col> -->
                 </v-row>
               </v-container>
             </v-card>
