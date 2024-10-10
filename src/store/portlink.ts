@@ -39,27 +39,27 @@ export const usePortlinkStore = defineStore('linklocation', () => {
       websiteurl: 'https://benyapab.github.io/games-for-kids.github.io/',
       githuburl: 'https://github.com/BenyapaB/games-for-kids.github.io'
     },
+    // {
+    //   id: 4,
+    //   image: 'image4',
+    //   linktitle: 'Web template for user',
+    //   description: 'describe4',
+    //   websiteurl: '',
+    //   githuburl: 'https://youtube.com'
+    // },
+    // {
+    //   id: 5,
+    //   image: 'image5',
+    //   linktitle: 'Web template for admin',
+    //   description: 'describe5',
+    //   websiteurl: '',
+    //   githuburl: 'https://youtube.com'
+    // },
     {
       id: 4,
       image: 'image4',
-      linktitle: 'Web template for user',
-      description: 'describe4',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
-    },
-    {
-      id: 5,
-      image: 'image5',
-      linktitle: 'Web template for admin',
-      description: 'describe5',
-      websiteurl: '',
-      githuburl: 'https://youtube.com'
-    },
-    {
-      id: 6,
-      image: 'image6',
       linktitle: 'BMI Calculator',
-      description: 'describe6',
+      description: 'describe4',
       websiteurl: 'https://cal-bmi-43aa6.web.app/',
       githuburl: 'https://github.com/BenyapaB/bmi-calculator-website'
     }
