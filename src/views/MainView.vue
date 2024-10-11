@@ -13,6 +13,16 @@ import ResumeView from './ResumeView.vue';
 // ]
 
 // const drawer = ref(null)
+function downloadPdfResume() {
+  const pdfresume ='src/assets/web-dev-resume.pdf'
+  const dlresume = document.createElement('a')
+  dlresume.href = pdfresume;
+  dlresume.setAttribute('download', 'web-dev-resume.pdf');
+  dlresume.download = 'Benyapa-resume.pdf'
+  document.body.appendChild(dlresume);
+  dlresume.click()
+  document.body.removeChild(dlresume);
+}
 </script>
 <template>
   <v-app>
@@ -94,7 +104,7 @@ import ResumeView from './ResumeView.vue';
                 </v-container>
                 <v-row>
                   <v-col cols="12" class="mt-3" id="profile-divider">
-                    <v-btn id="btn-resume" :append-icon="mdiDownload"> Resume </v-btn>
+                    <v-btn id="btn-resume" :append-icon="mdiDownload" @click="downloadPdfResume"> Resume </v-btn>
                   </v-col>
                 </v-row>
                 <v-row>

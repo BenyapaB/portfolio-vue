@@ -33,7 +33,7 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     },
     {
       id: 3,
-      image: 'image3',
+      image: 'src/assets/imgs/img-game-for-kid.png',
       linktitle: 'Games for kids',
       description: 'describe3',
       websiteurl: 'https://benyapab.github.io/games-for-kids.github.io/',
@@ -57,7 +57,7 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     // },
     {
       id: 4,
-      image: 'image4',
+      image: 'src/assets/imgs/img-calbmi.png',
       linktitle: 'BMI Calculator',
       description: 'describe4',
       websiteurl: 'https://cal-bmi-43aa6.web.app/',
@@ -65,7 +65,7 @@ export const usePortlinkStore = defineStore('linklocation', () => {
     },
     {
       id: 5,
-      image: 'image5',
+      image: 'src/assets/imgs/image-pricing-page.png',
       linktitle: 'Pricing Page',
       description: 'describe5',
       websiteurl: 'https://benyapab.github.io/pricing-page.github.io/',

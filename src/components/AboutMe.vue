@@ -5,12 +5,23 @@
 </script>
 
 <template>
-    <v-container id="frame-detail">
-    <v-card id="about-card-detail" flat></v-card>
+  <v-container id="frame-detail">
+    <v-card id="about-card-detail" flat>
+      <v-container class="mt-4">
+        <p id="aboutme-text-detail">
+          My name is Namfon. I graduated from the Faculty of Informatics, majoring in Computer
+          Science, Burapha University. I have a strong passion for programming whenever I have free
+          time, I am eager to study and learn new things for self-improvement. During my university
+          years, I gained experience and knowledge from various coursework, such as Object-Oriented
+          Programming (OOP), Object-Oriented Analysis and Design (OOAD), Data Structures and
+          Algorithms and more. You can see more detail here
+        </p>
+      </v-container>
+    </v-card>
     <div id="what-im-doing" class="mt-4">What I’m doing</div>
     <div id="divider"></div>
     <v-card id="doing-card-detail" flat class="mt-5"></v-card>
-    </v-container>
+  </v-container>
 </template>
 
 <style scoped>
@@ -23,16 +34,23 @@
   box-shadow: 0 4px 15px rgb(51, 51, 51, 0.25);
 }
 #about-card-detail {
-    background-color: #ecebfc;
-    max-width: 100%;
-    height: 280px;
-    border-radius: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #ecebfc;
+  max-width: 100%;
+  height: 280px;
+  border-radius: 18px;
+  line-height: 42px;
+}
+#aboutme-text-detail {
+  text-indent: 75px;
 }
 
 #what-im-doing {
-    font-size: 34px;
-    font-weight: 700;
-    letter-spacing: 0.3px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 #divider {
   border-top: 3px solid #333333;
@@ -40,10 +58,10 @@
 }
 
 #doing-card-detail {
-    background-color: #ecebfc;
-    max-width: 100%;
-    height: 380px;
-    border-radius: 18px;
+  background-color: #ecebfc;
+  max-width: 100%;
+  height: 380px;
+  border-radius: 18px;
 }
 </style>
 
