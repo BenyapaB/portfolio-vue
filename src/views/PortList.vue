@@ -13,18 +13,18 @@ const portLinkStore = usePortlinkStore();
 <template>
     <v-container>
         <v-row>
-            <v-col cols="3" v-for="link of portLinkStore.links" :key="link.id">
-                <v-card id="portfolio-card" class="mx-auto" max-width="400" flat>
+            <v-col cols="4" v-for="link of portLinkStore.links" :key="link.id">
+                <v-card id="portfolio-card" class="mx-auto" max-width="600" flat>
                     <v-img class="align-end text-white" height="300"
                         v-bind:src="link.image" cover>
                         <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                     </v-img>
 
-                    <v-card-title class="pt-4">
+                    <v-card-title id="link-title-text" class="pt-4">
                         {{ link.linktitle }}
                     </v-card-title>
 
-                    <v-card-text>
+                    <v-card-text id="link-description-text">
                         <div>{{link.description}}</div>
 
                     </v-card-text>
@@ -50,7 +50,17 @@ const portLinkStore = usePortlinkStore();
 #portfolio-card {
     background-color: #ecebfc;
     /* max-width: 100%; */
-    height: auto;
+    height: 100%;
     border-radius: 18px;
+    display: grid;
+}
+#link-title-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+#link-description-text {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 </style>

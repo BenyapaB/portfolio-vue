@@ -122,14 +122,14 @@ function downloadPdfResume() {
                     ></v-img>
                   </v-col> -->
                   <v-col cols="3" class="mt-0" id="github-icon">
-                    <v-img
+                      <a href="https://github.com/BenyapaB" target="_blank" rel="noopener noreferrer">
+                      <v-img
                       src="src/assets/imgs/github-icon.png"
-                      href="https://github.com/BenyapaB"
                       title="Github link"
                       width="auto"
                       height="auto"
                       class="cursor-pointer"
-                    ></v-img>
+                    ></v-img></a>
                   </v-col>
                   <!-- <v-col cols="3" class="mt-0" id="ig-icon">
                     <v-img
@@ -242,7 +242,7 @@ function downloadPdfResume() {
 #text-dob,
 #text-location,
 #btn-resume {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.5px;
 }

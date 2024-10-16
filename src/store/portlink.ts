@@ -3,23 +3,13 @@ import type Portlink from '@/types/Portlink'
 import { defineStore } from 'pinia'
 
 export const usePortlinkStore = defineStore('linklocation', () => {
-  const dialog = ref(false)
-  // let lastId = ;
-
-  //   const viewPortcard = ref<Portlink>({
-  //     id: -1,
-  //     image: '',
-  //     linktitle: '',
-  //     description: '',
-  //     url: ''
-  //   })
-
   const links = ref<Portlink[]>([
     {
       id: 1,
-      image: 'image1',
+      image: 'src/assets/imgs/img-portfolio.png',
       linktitle: 'Portfolio Website',
-      description: 'This website made by HTML5, CSS and JavaScript blablablabal',
+      description:
+        'This website was developed using Vue.js to present my works, making it more convenient and accessible for browsing.',
       websiteurl: '',
       githuburl: 'https://github.com/BenyapaB/portfolio-vue'
     },
@@ -27,7 +17,8 @@ export const usePortlinkStore = defineStore('linklocation', () => {
       id: 2,
       image: 'src/assets/imgs/gis-index.png',
       linktitle: 'GIS Landing page website',
-      description: 'describe2',
+      description:
+        'This website is a website for products presentation, developed using HTML5 CSS and JavaScript.',
       websiteurl: 'https://benyapab.github.io/gis-landing-page-website/',
       githuburl: 'https://github.com/BenyapaB/gis-landing-page-website'
     },
@@ -35,31 +26,17 @@ export const usePortlinkStore = defineStore('linklocation', () => {
       id: 3,
       image: 'src/assets/imgs/img-game-for-kid.png',
       linktitle: 'Games for kids',
-      description: 'describe3',
+      description:
+        'This website is one of the course projects, creating educational games suitable for children aged 3-5 years.',
       websiteurl: 'https://benyapab.github.io/games-for-kids.github.io/',
       githuburl: 'https://github.com/BenyapaB/games-for-kids.github.io'
     },
-    // {
-    //   id: 4,
-    //   image: 'image4',
-    //   linktitle: 'Web template for user',
-    //   description: 'describe4',
-    //   websiteurl: '',
-    //   githuburl: 'https://youtube.com'
-    // },
-    // {
-    //   id: 5,
-    //   image: 'image5',
-    //   linktitle: 'Web template for admin',
-    //   description: 'describe5',
-    //   websiteurl: '',
-    //   githuburl: 'https://youtube.com'
-    // },
     {
       id: 4,
       image: 'src/assets/imgs/img-calbmi.png',
       linktitle: 'BMI Calculator',
-      description: 'describe4',
+      description:
+        'This website was used to calculate BMI value and corresponding weight status while taking age into consideration.',
       websiteurl: 'https://cal-bmi-43aa6.web.app/',
       githuburl: 'https://github.com/BenyapaB/bmi-calculator-website'
     },
@@ -67,7 +44,8 @@ export const usePortlinkStore = defineStore('linklocation', () => {
       id: 5,
       image: 'src/assets/imgs/image-pricing-page.png',
       linktitle: 'Pricing Page',
-      description: 'describe5',
+      description:
+        'This website was developed using HTML5 CSS and JavaScript to select different prices or levels for products or services.',
       websiteurl: 'https://benyapab.github.io/pricing-page.github.io/',
       githuburl: 'https://github.com/BenyapaB/gis-landing-page-website'
     }
