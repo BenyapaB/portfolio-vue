@@ -14,11 +14,11 @@ import ResumeView from './ResumeView.vue';
 
 // const drawer = ref(null)
 function downloadPdfResume() {
-  const pdfresume ='src/assets/web-dev-resume.pdf'
+  const pdfresume ='src/assets/Benyapa-resume-transcript.pdf'
   const dlresume = document.createElement('a')
   dlresume.href = pdfresume;
-  dlresume.setAttribute('download', 'web-dev-resume.pdf');
-  dlresume.download = 'Benyapa-resume.pdf'
+  dlresume.setAttribute('download', 'Benyapa-resume-transcript.pdf');
+  dlresume.download = 'Benyapa-resume-transcript.pdf'
   document.body.appendChild(dlresume);
   dlresume.click()
   document.body.removeChild(dlresume);

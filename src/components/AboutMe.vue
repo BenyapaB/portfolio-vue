@@ -14,13 +14,24 @@
           time, I am eager to study and learn new things for self-improvement. During my university
           years, I gained experience and knowledge from various coursework, such as Object-Oriented
           Programming (OOP), Object-Oriented Analysis and Design (OOAD), Data Structures and
-          Algorithms and more. You can see more detail here
+          Algorithms and more. You can see more when you download my resume.
         </p>
       </v-container>
     </v-card>
     <div id="what-im-doing" class="mt-4">What I’m doing</div>
     <div id="divider"></div>
-    <v-card id="doing-card-detail" flat class="mt-5"></v-card>
+    <v-card id="doing-card-detail" flat class="mt-5">
+      <v-row>
+            <v-col cols="3">
+                <v-card id="activity-card" class="mx-auto" max-width="400" flat>
+                    <!-- <v-img class="align-end text-white" height="300">
+                    </v-img> -->
+                    hello
+                    
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-card>
   </v-container>
 </template>
 
@@ -62,6 +73,13 @@
   max-width: 100%;
   height: 380px;
   border-radius: 18px;
+}
+
+#activity-card {
+    background-color: #ecebfc;
+    /* max-width: 100%; */
+    height: auto;
+    border-radius: 18px;
 }
 </style>
 
